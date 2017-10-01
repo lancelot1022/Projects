@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite">
+
+    <test name="Scenario 1 - Login Invalid Credentials">
+
+	<parameter name="username" value="invalid123"/>
+
+	<parameter name="password" value="1238@ab"/>
+
+		<classes>
+
+		    <class name="altoroTest1.Test2" />
+
+		</classes>
+
+    </test>
+    
+     <test name="Scenario 2 - Testing valid username with special characters">
+
+	<parameter name="username" value="tuser'--"/>
+
+	<parameter name="password" value="tuser"/>
+
+		<classes>
+
+		    <class name="altoroTest1.Test2" />
+
+		</classes>
+
+    </test>
+
+</suite> 
